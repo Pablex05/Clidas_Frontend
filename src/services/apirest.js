@@ -1,2 +1,2 @@
 
-export const Apiurl = "http://localhost:8080/";
+export const Apiurl = "http://localhost:5000/Clidas/api/";

@@ -15,7 +15,7 @@ class Header extends React.Component{
         return(
             <div className="container" align="left">
             <nav className="navbar navbar-dark bg-dark fixed-top">
-                <a className="navbar-brand" href="/"> <img src={logo} width="200px" alt="User Icon" href="/" width="10%" height="10%" style={{marginLeft:"2%"}}/> CLIDAS</a>
+                <a className="navbar-brand" href="/clidas"> <img src={logo} width="200px" alt="User Icon" href="/" width="10%" height="10%" style={{marginLeft:"2%"}}/> CLIDAS</a>
                 </nav>
                 <br/><br/><br/>
             </div>

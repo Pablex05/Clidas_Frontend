@@ -6,17 +6,18 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import HomePage from './components/HomePage';
 
 import Analisis from './components/Analisis/Analisis';
-import EditAnalisis from './components/Analisis/EditAnalisis'
+import ConfiguracionRutinas from './components/ConfiguracionRutinas/Configuracion';
+
 
 function App() {
   return (
       <React.Fragment>
           <Router>
               <Switch>
-                  <Route path="/" exact render={props => (<HomePage {...props}/>)}></Route>
-                  <Route path="/analisis" exact render={props => (<Analisis {...props}/>)}></Route>
-                  <Route path="/actor/Edit/:id" exact render={props => (<EditAnalisis {...props}/>)}></Route>
-
+                  <Route path="/clidas" exact render={props => (<HomePage {...props}/>)}></Route>
+                  <Route path="/clidas/Analisis" exact render={props => (<Analisis {...props}/>)}></Route>
+                  <Route path="/clidas/configuracion/rutinas" exact render={props => (<ConfiguracionRutinas {...props}/>)}></Route>
+                  
               </Switch>
           </Router>
       </React.Fragment>

@@ -44,7 +44,7 @@ class Analisis extends React.Component{
     }
 
     componentDidMount(){
-        let url = Apiurl + "analisis/getAll";
+        let url = Apiurl + "analisis";
         axios.get(url)
             .then(response =>{
                 this.setState({
